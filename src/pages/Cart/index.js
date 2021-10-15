@@ -21,6 +21,7 @@ import {
 } from './styles';
 import FeatherIcon from 'react-native-vector-icons/Feather';
 import formatValue from '../../utils/formatValue';
+import EmptyCart from '../../components/EmptyCart';
 
 const Cart = () => {
   const [products, setProducts] = useState([
@@ -53,6 +54,7 @@ const Cart = () => {
           data={products}
           keyExtractor={(item) => item.id}
           ListFooterComponent={<View />}
+          ListEmptyComponent={<EmptyCart />}
           ListFooterComponentStyle={{ height: 80 }}
           renderItem={({ item }) => (
             <Product>

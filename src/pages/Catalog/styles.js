@@ -9,7 +9,7 @@ export const Container = styled.SafeAreaView`
 export const ProductContainer = styled.View`
   flex: 1;
   flex-direction: row;
-  margin-top: 40px;
+  margin-top: 80px;
   border-radius: 5px;
 `;
 
@@ -17,7 +17,7 @@ export const Productlist = styled(FlatList).attrs({
   numColumns: 1,
 })`
   flex: 1;
-  padding: 40px 20px;
+  padding: 15px 20px;
 `;
 
 export const Product = styled.View`

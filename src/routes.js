@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import Catalog from './pages';
+import Catalog from './pages/Catalog';
 import Header from './components/header';
 import Cart from './pages/Cart';
 import FeatherIcon from 'react-native-vector-icons/Feather';
